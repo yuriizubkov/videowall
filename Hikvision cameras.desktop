@@ -1,0 +1,12 @@
+[Desktop Entry]
+Encoding=UTF-8
+Version=1.0
+Name=Video wall
+GenericName=IP cameras RTSP viewer
+Path=/home/pi/videowall/
+Exec=python3 /home/pi/videowall/videowall.py
+Terminal=false
+Icon=/home/pi/videowall/icon.png
+Type=Application
+Categories=Application;Network;Security;
+Comment=IP cameras viewer
