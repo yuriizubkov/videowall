@@ -2,6 +2,7 @@
 Python script for viewing RTSP streams from Hikvision (not only) cameras in grid on Raspberry Pi 3.
 Our NVR is installed in a separate room in the server rack. We applied the Raspberry Pi 3 with our script to view cameras streams. The script takes RTSP streams from NVR channels and displays on the TV in the form of a grid.
 Cron launches the script in the morning and stops in the evening, also turns off the HDMI output of Raspberry Pi, so if you even forget to turn off the TV - it will turn off automatically.
+Raspberry Pi TV mount pocket: https://www.thingiverse.com/thing:2393597
 
 ## Dependencies
 This script uses Python 3 and Qt4, so please install dependencies first.
